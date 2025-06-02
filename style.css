@@ -1,13 +1,15 @@
 
+
 :root {
-  --bg: #f9f9f9;
+  --bg: #ffffff;
   --text: #222;
   --accent: #666;
   --link: #006666;
+  --quote-bg: #eaf7ea;
 }
 
 * {
-  margin: 0;
+  margin: 6rem;
   padding: 0;
   box-sizing: border-box;
 }
@@ -66,9 +68,41 @@ article h3 {
   margin-bottom: 0.5rem;
 }
 
-article p {
-  margin-bottom: 1rem;
+p {
+  margin-bottom: 1.2rem;
   text-align: justify;
+  text-indent: 2em;
+}
+
+.salutation {
+  text-indent: 0;
+  font-style: italic;
+  margin-bottom: 1.2rem;
+}
+
+.quote {
+  background-color: var(--quote-bg);
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #b0d8b0;
+  margin: 1rem 0;
+  font-style: italic;
+  text-indent: 0;
+}
+
+.inline-en {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f0f0f0;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  word-break: break-word;
+}
+
+.subhead {
+  border-top: 1px solid #ddd;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-weight: bold;
+  color: var(--accent);
 }
 
 footer {
