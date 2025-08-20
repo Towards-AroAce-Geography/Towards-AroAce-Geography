@@ -137,3 +137,17 @@ footer {
   font-size: 0.9rem;
   font-style: italic;
 }
+
+.audio-button {
+  background: none;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.audio-button img {
+  width: 32px;
+  height: 32px;
+}
